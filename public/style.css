@@ -88,6 +88,7 @@
     font-family: var(--heading-font);
     font-size: 1.5em;
     font-weight: bold;
+    text-align: center;
   }
   
   .header-image img {
@@ -194,6 +195,7 @@
   /* NAVIGATION */
   
   nav {
+    align-self: center;
     margin-bottom: 3em;
   }
   
@@ -232,6 +234,8 @@
   
   header nav {
     margin-bottom: 0;
+    align-self: center;
+    align-items: center;
   }
   
   header nav ul {
