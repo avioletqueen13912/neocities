@@ -71,6 +71,7 @@
   }
   
   header {
+    align-items: center;
     grid-area: header;
     font-size: 1.2em;
     border: var(--border);
