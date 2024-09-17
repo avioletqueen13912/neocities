@@ -195,7 +195,7 @@
   /* NAVIGATION */
   
   nav {
-    align-self: center;
+    align-items: center;
     margin-bottom: 3em;
   }
   
@@ -236,6 +236,7 @@
     margin-bottom: 0;
     align-self: center;
     align-items: center;
+    text-align: center;
   }
   
   header nav ul {
