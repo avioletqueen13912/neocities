@@ -36,6 +36,10 @@ function headerHTML() {
           <div class="sidebar-title">bio</div>
           <p>hello i am jay and here is my neocities. i am a gamer girl i use she/her he/him and i love dorothea arnault. i do not remember how to use html and i am never open to feedback.</p>
         </div>
+        <div class="sidebar-section">
+          <div class="sidebar-title">chatbox</div>
+          <iframe src="https://www3.cbox.ws/box/?boxid=3540886&boxtag=85Jf6C" width="100%" height="450" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+        </div>
       </aside>
 	
       `;
