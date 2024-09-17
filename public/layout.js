@@ -21,7 +21,7 @@ function headerHTML() {
 <header>
 
         <div class="header-content">
-			<div class="header-title">jay's home (under construction)</div>
+			<div class="header-title">jay's spot (under construction)</div>
 	        <nav>
 	          <ul>
 	            <li><a href="https://midsummerjay.neocities.org">home</a></li>
