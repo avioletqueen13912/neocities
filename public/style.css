@@ -217,6 +217,7 @@
   
   nav ul li > a {
     display: inline-block;
+    text-align: center;
   }
   
   nav ul li > a,
