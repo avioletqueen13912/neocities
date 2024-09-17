@@ -234,15 +234,13 @@
   
   header nav {
     margin-bottom: 0;
-    align-self: center;
-    align-items: center;
-    text-align: center;
   }
   
   header nav ul {
     display: flex;
     flex-wrap: wrap;
     margin: 0;
+    text-align: center;
   }
   
   header nav ul li:first-child > a {
