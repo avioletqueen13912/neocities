@@ -212,6 +212,7 @@
   
   nav ul li {
     margin-bottom: 0;
+    text-align: center;
   }
   
   nav ul li > a {
