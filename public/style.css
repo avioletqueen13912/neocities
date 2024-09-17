@@ -81,7 +81,6 @@
   
   .header-content {
     padding: var(--padding);
-    text-align: center;
   }
   
   .header-title {
@@ -195,7 +194,6 @@
   /* NAVIGATION */
   
   nav {
-    align-items: center;
     margin-bottom: 3em;
   }
   
@@ -208,17 +206,14 @@
     padding: 0;
     list-style: none;
     user-select: none;
-    text-align: center;
   }
   
   nav ul li {
     margin-bottom: 0;
-    text-align: center;
   }
   
   nav ul li > a {
     display: inline-block;
-    text-align: center;
   }
   
   nav ul li > a,
@@ -243,7 +238,7 @@
     display: flex;
     flex-wrap: wrap;
     margin: 0;
-    text-align: center;
+    justify-content: center;
   }
   
   header nav ul li:first-child > a {
