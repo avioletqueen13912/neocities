@@ -24,7 +24,8 @@ function headerHTML() {
 			<div class="header-title">jay's spot (under construction)</div>
 	        <nav>
 	          <ul>
-	            <li><a href="https://midsummerjay.neocities.org">home</a></li>
+	            <li><a href="https://midsummerjay.neocities.org">⌂</a></li>
+              <li><a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
 	          </ul>
 	        </>
 		</div>
@@ -33,8 +34,8 @@ function headerHTML() {
             <aside class="left-sidebar">
 	  
         <div class="sidebar-section">
-          <div class="sidebar-title">bio</div>
-          <p>hello i am jay and here is my neocities. i am a gamer girl i use she/her he/him and i love dorothea arnault. i do not remember how to use html and i am never open to feedback.</p>
+          <div class="sidebar-title">status</div>
+          <p>09/18/2024 - looking at different neocities for inspo on what to put on mine</p>
         </div>
         <div class="sidebar-section">
           <div class="sidebar-title">chatbox</div>

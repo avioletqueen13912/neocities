@@ -73,6 +73,7 @@
   header {
     grid-area: header;
     font-size: 1.2em;
+    font-family: var(--heading-font);
     border: var(--border);
     border-radius: var(--round-borders);
     overflow: hidden;
