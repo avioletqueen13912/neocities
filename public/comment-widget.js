@@ -279,13 +279,13 @@ function displayComments(comments) {
     for (i = 0; i < comments.length; i++) {
         let comment = createComment(comments[i]);
         
-        // Reply button
-        let button = document.createElement('button');
-        button.innerHTML = s_replyButtonText;
-        button.value = comment.id;
-        button.setAttribute('onclick', `openReply(this.value)`);
-        button.className = 'c-replyButton';
-        comment.appendChild(button);
+        // // Reply button
+        // let button = document.createElement('button');
+        // button.innerHTML = s_replyButtonText;
+        // button.value = comment.id;
+        // button.setAttribute('onclick', `openReply(this.value)`);
+        // button.className = 'c-replyButton';
+        // comment.appendChild(button);
 
         // Choose whether to display or not based on page number
         comment.style.display = 'none';
