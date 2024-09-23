@@ -33,29 +33,12 @@ function headerHTML() {
 	  
             <aside class="left-sidebar">
 	          <nav>
-          <div class="sidebar-title">Navigation</div>
+          <div class="sidebar-title">menu</div>
           <ul>
             <li><a href="https://midsummerjay.neocities.org">⌂</a></li>
               <li><a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
-			
-            <li>
-              	<details>
-				<summary><a href="#">Test Submenu</a></summary>
-                <ul>
-                  <li><a href="#">Page A</a></li>
-                  <li><a href="#">Page B</a></li>
-                  <li><a href="#">Page C</a></li>
-                  <li><a href="#">Page D</a></li>
-                  <li><a href="#">Page E</a></li>
-                </ul>
-				</details>
-            </li>
           </ul>
         </nav>
-        <div class="sidebar-section">
-          <div class="sidebar-title">status</div>
-          <p>09/18/2024 - looking at different neocities for inspo on what to put on mine</p>
-        </div>
         <div class="sidebar-section">
           <div class="sidebar-title">chatbox</div>
           <iframe src="https://www3.cbox.ws/box/?boxid=3540886&boxtag=85Jf6C" width="100%" height="225" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
@@ -63,8 +46,12 @@ function headerHTML() {
       </aside>
 
             <aside class="right-sidebar">
-	  
-        <div class="sidebar-section">
+	  <div class="sidebar-section">
+          <div class="sidebar-title">latest update</div>
+          <p>09/23/2024 - i think it's funny to say i don't remember html in my bio, but i clearly remember it now... it's so hard to choose between the truth and a bit.</p>
+        </div>
+        
+            <div class="sidebar-section">
           <div class="sidebar-title">currently...</div>
           <p>eventually this will show what i'm currently watching/reading/listening to.</p>
         </div>
