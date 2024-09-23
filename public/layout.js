@@ -42,6 +42,14 @@ function headerHTML() {
           <iframe src="https://www3.cbox.ws/box/?boxid=3540886&boxtag=85Jf6C" width="100%" height="225" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
         </div>
       </aside>
+
+            <aside class="right-sidebar">
+	  
+        <div class="sidebar-section">
+          <div class="sidebar-title">currently...</div>
+          <p>eventually this will show what i'm currently watching/reading/listening to.</p>
+        </div>
+      </aside>
 	
       `;
 }
@@ -52,7 +60,7 @@ function footerHTML() {
   // Example: <img src="${nesting}img/logo.png"> might output <img src="../img/logo.png">
 
   return `
-<footer><div>Footer Text. <a href="#">Link.</a> Template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div></footer>`;
+all rights reserved. (idk what that means it just seems like the thing to say.) <a href="https://midsummerjay.neocities.org/index">home.</a> template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.`;
 }
 
 function getNesting() {
