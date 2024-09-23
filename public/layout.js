@@ -32,7 +32,7 @@ function headerHTML() {
       </header>
 	  
             <aside class="left-sidebar">
-	          <nav>
+	          <nav class="sidebar-section">
           <div class="sidebar-title">menu</div>
           <ul>
             <li><a href="https://midsummerjay.neocities.org">⌂ home</a></li>
