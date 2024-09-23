@@ -22,7 +22,7 @@ function headerHTML() {
 
         <div class="header-content">
 			<div class="header-title">jay's spot (under construction)</div>
-	        <nav>
+	        <nav style="display:none;">
 	          <ul>
 	            <li><a href="https://midsummerjay.neocities.org">⌂</a></li>
               <li><a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
@@ -32,7 +32,26 @@ function headerHTML() {
       </header>
 	  
             <aside class="left-sidebar">
-	  
+	          <nav>
+          <div class="sidebar-title">Navigation</div>
+          <ul>
+            <li><a href="https://midsummerjay.neocities.org">⌂</a></li>
+              <li><a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
+			
+            <li>
+              	<details>
+				<summary><a href="#">Test Submenu</a></summary>
+                <ul>
+                  <li><a href="#">Page A</a></li>
+                  <li><a href="#">Page B</a></li>
+                  <li><a href="#">Page C</a></li>
+                  <li><a href="#">Page D</a></li>
+                  <li><a href="#">Page E</a></li>
+                </ul>
+				</details>
+            </li>
+          </ul>
+        </nav>
         <div class="sidebar-section">
           <div class="sidebar-title">status</div>
           <p>09/18/2024 - looking at different neocities for inspo on what to put on mine</p>
