@@ -35,10 +35,10 @@ function headerHTML() {
 	          <nav class="sidebar-section">
           <div class="sidebar-title">menu</div>
           <ul>
-            <li>⌂ <a href="https://midsummerjay.neocities.org">home</a></li>
-              <li>➜ <a href="https://midsummerjay.neocities.org/bio.html">about</a></li>
-              <li>➜ <a href="https://midsummerjay.neocities.org/bio.html">guestbook (tba)</a></li>
-              <li>➜ <a href="https://midsummerjay.neocities.org/credits.html">credits</a></li>
+            <li>⌂<a href="https://midsummerjay.neocities.org/index.html">home</a></li>
+              <li>➜<a href="https://midsummerjay.neocities.org/bio.html">about</a></li>
+              <li>➜<a href="https://midsummerjay.neocities.org/bio.html">guestbook (tba)</a></li>
+              <li>➜<a href="https://midsummerjay.neocities.org/credits.html">credits</a></li>
           </ul>
         </nav>
         <div class="sidebar-section">
