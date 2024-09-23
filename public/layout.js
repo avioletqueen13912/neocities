@@ -57,6 +57,15 @@ function headerHTML() {
           <div class="sidebar-title">currently...</div>
           <p>eventually this will show what i'm currently watching/reading/listening to.</p>
         </div>
+
+        <div class="sidebar-section">
+          <div class="sidebar-title">to-do</div>
+          <ul>
+          <li>figure out how to get replies to work on guestbook</li>
+          <li>add blinkies page</li> 
+          <li>format + update "currently..." section</li>
+          </ul>
+        </div>
       </aside>
 	
       `;
