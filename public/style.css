@@ -33,7 +33,6 @@
     justify-content: center;
     background: var(--background-color);
     background-image: url("");
-    
     min-height: 100vh;
     font-size: var(--font-size);
     margin: 0;

@@ -38,6 +38,7 @@ function headerHTML() {
             <li><a href="https://midsummerjay.neocities.org">⌂ home</a></li>
               <li><a href="https://midsummerjay.neocities.org/bio.html">➜ about</a></li>
               <li><a href="https://midsummerjay.neocities.org/bio.html">➜ guestbook (tba)</a></li>
+              <li><a href="https://midsummerjay.neocities.org/credits.html">➜ credits</a></li>
           </ul>
         </nav>
         <div class="sidebar-section">
@@ -67,7 +68,7 @@ function footerHTML() {
   // Example: <img src="${nesting}img/logo.png"> might output <img src="../img/logo.png">
 
   return `
-<footer><div>all rights reserved. (idk what that means it just seems like the thing to say.) <a href="https://midsummerjay.neocities.org/index">home.</a> template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div></footer>`;
+<footer><div>all rights reserved. (idk what that means, it just seems like the thing to say.) <a href="https://midsummerjay.neocities.org/index">home.</a> template generated with <a href="https://petrapixel.neocities.org/coding/layout-generator.html">petrapixel's layout generator</a>.</div></footer>`;
 }
 
 function getNesting() {
