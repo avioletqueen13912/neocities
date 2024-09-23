@@ -37,7 +37,7 @@ function headerHTML() {
           <ul>
             <li>⌂<a href="https://midsummerjay.neocities.org/index.html">home</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/bio.html">about</a></li>
-              <li>➜<a href="https://midsummerjay.neocities.org/bio.html">guestbook (tba)</a></li>
+              <li>➜<a href="https://midsummerjay.neocities.org/guestbook.html">guestbook</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/credits.html">credits</a></li>
           </ul>
         </nav>
