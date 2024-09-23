@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: center;
     background: var(--background-color);
-    background-image: url("");
+    background-image: url("./images/bgtry3.png");
     min-height: 100vh;
     font-size: var(--font-size);
     margin: 0;
