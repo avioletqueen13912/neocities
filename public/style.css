@@ -180,6 +180,12 @@
     border: var(--border);
     border-radius: var(--round-borders);
   }
+
+  .table-class td {
+    vertical-align: center;
+    padding-top:-1px;
+    padding-left: 5px;
+  }
   
   footer {
     grid-area: footer;

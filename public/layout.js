@@ -56,15 +56,36 @@ function headerHTML() {
         
             <div class="sidebar-section">
           <div class="sidebar-title">currently...</div>
-          <p>eventually this will show what i'm currently watching/reading/listening to.</p>
+          <p>
+          <table class="table-class">
+            <tr>
+              <td><img src="./images/game-console.png" height="25px"></td>
+              <td>splatoon 3</td>
+            </tr>
+            <tr>
+              <td><img src="./images/headphones.png" height="25px"></td>
+              <td>cosmic - red velvet, ttyl - loossemble, cheers - svt</td>
+            </tr>
+            <tr>
+              <td><img src="./images/rating.png" height="25px"></td>
+              <td>count of monte cristo (slowly)</td>
+            </tr>
+            <tr>
+              <td><img src="./images/tv.png" height="25px"></td>
+              <td>northernlion vods</td>
+            </tr>
+          </table>
+          </p>
         </div>
 
         <div class="sidebar-section">
           <div class="sidebar-title">to-do</div>
           <ul>
+          <li>add "visitors" widget</li>
+          <li>add blog!</li>
+          <li>find dividers + graphics i like</li>
+          <li>reformat "currently..." section</li>
           <li>figure out how to get replies to work on guestbook</li>
-          <li>add blinkies page</li> 
-          <li>format + update "currently..." section</li>
           </ul>
         </div>
       </aside>
