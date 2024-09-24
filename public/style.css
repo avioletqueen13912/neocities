@@ -4,7 +4,9 @@
     --background-color: #9fa0c3;
     --content-background-color: #ffffff;
     --sidebar-background-color: #ffffff;
-  
+    --button-background: #ffe0eb;
+    --border-color: #cb8589;
+
     /* Text Colors: */
     --text-color: #392061;
     --sidebar-text-color: #392061;
@@ -18,6 +20,7 @@
     --margin: 10px;
     --padding: 20px;
     --border: 2px solid #cb8589;
+    --button-border: 2px solid #ffe0eb;
     --dotted-border: 2px dotted #cb8589;
     --round-borders: 8px;
     --top-round-borders: 8px 8px 0px 0px;
@@ -274,6 +277,57 @@
   
   header nav ul li:last-child > a {
     padding-right: 0;
+  }
+
+  /* -------------------------------------------------------- */
+  /* BLOG */
+
+  .postsummary {
+    border: var(--dotted-border);
+    border-radius: var(--top-round-borders);
+  }
+
+  .postsummarytitle {
+    text-align: left;
+    padding: 5px; 
+    font-weight: bold;
+    font-size: 18px;
+    font-family: var(--heading-font);
+    color: var(--text-color);
+  }
+
+  .postsummarydate {
+    text-align: left;
+    padding-left: 5px;
+    margin-top: -10px;
+    font-weight: bold;
+    color: var(--link-color-hover);
+  }
+
+  .postsummaryblog {
+    color: var(--text-color);
+    padding-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+
+  .readmorebutton {
+    border: var(--button-border);
+    border-radius: var(--round-borders);
+    background-color: var(--button-background);
+    padding: 5px;
+    margin-left: 8px;
+    margin-right: auto;
+    justify-content: left;
+    width: fit-content;
+  }
+
+  .readmorelink a {
+    color: var(--border-color);
+  }
+
+  .moreposts {
+    text-align: center;
   }
   
   /* -------------------------------------------------------- */
