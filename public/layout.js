@@ -43,6 +43,10 @@ function headerHTML() {
           </ul>
         </nav>
         <div class="sidebar-section">
+        <div class="sidebar-title">visitors</div>
+        <iframe srcdoc="<script language='javascript' type='text/javascript' src='//counter1.fc2.com/views.php?id=39945556&main=1'></script><noscript><img src='//counter1.fc2.com/counter_now.php?id=39945556&main=1' /></noscript>" width="100%" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0"></iframe>
+        </div>
+        <div class="sidebar-section">
           <div class="sidebar-title">chatbox</div>
           <iframe src="https://www3.cbox.ws/box/?boxid=3540886&boxtag=85Jf6C" width="100%" height="225" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
         </div>
@@ -64,7 +68,7 @@ function headerHTML() {
             </tr>
             <tr>
               <td><img src="./images/headphones.png" height="25px"></td>
-              <td>cosmic - red velvet, ttyl - loossemble, cheers - svt</td>
+              <td>cosmic - red velvet<br />ttyl - loossemble<br />cheers - svt</td>
             </tr>
             <tr>
               <td><img src="./images/rating.png" height="25px"></td>
