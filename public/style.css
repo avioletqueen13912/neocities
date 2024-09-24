@@ -382,6 +382,7 @@
   
   main h1 {
     font-size: 1.5em;
+    border-bottom: var(--dotted-border);
   }
   
   main h2 {
