@@ -68,15 +68,15 @@ function headerHTML() {
               <td>splatoon 3</td>
             </tr>
             <tr>
-              <td><img src="./images/headphones.png" height="25px"></td>
+              <td><img src="${nesting}/images/headphones.png" height="25px"></td>
               <td>cosmic - red velvet<br />ttyl - loossemble<br />cheers - svt</td>
             </tr>
             <tr>
-              <td><img src="./images/rating.png" height="25px"></td>
+              <td><img src="${nesting}/images/rating.png" height="25px"></td>
               <td>count of monte cristo (slowly)</td>
             </tr>
             <tr>
-              <td><img src="./images/tv.png" height="25px"></td>
+              <td><img src="${nesting}/images/tv.png" height="25px"></td>
               <td>northernlion vods</td>
             </tr>
           </table>
@@ -86,10 +86,8 @@ function headerHTML() {
         <div class="sidebar-section">
           <div class="sidebar-title">to-do</div>
           <ul>
-          <li>make my layout work with my blog posts</li>
           <li>add comment widget to my blog posts</li>
           <li>find dividers + graphics i like</li>
-          <li>reformat "currently..." section</li>
           <li>figure out how to get replies to work on guestbook</li>
           </ul>
         </div>
