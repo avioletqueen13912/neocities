@@ -352,6 +352,14 @@
   #skip-to-content-link:focus-within {
     transform: translateY(0);
   }
+
+  /* -------------------------------------------------------- */
+  /* GRAPHICS */
+
+  .divider {
+    padding: 8px;
+    text-align: center;
+  }
   
   /* -------------------------------------------------------- */
   /* CONTENT */
@@ -416,7 +424,7 @@
   
   main hr {
     border: 0;
-    border-top: 2px dotted green;
+    border-top: var(--dotted-border);
     margin: 1.5em 0;
   }
   
