@@ -456,9 +456,13 @@
   main h2 {
     font-size: 1.4em;
   }
-  
+
   main h3 {
     font-size: 1.3em;
+  }
+  
+  main h3:first-child {
+    padding-top: 15px;
   }
   
   main h4 {
@@ -508,6 +512,11 @@
   
   .images {
     display: flex;
+  }
+
+  .imgwrapright {
+    float:right;
+    padding:15px;
   }
   
   .images .image {
