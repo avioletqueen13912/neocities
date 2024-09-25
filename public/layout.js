@@ -64,7 +64,7 @@ function headerHTML() {
           <p>
           <table class="table-class">
             <tr>
-              <td><img src="./images/game-console.png" height="25px"></td>
+              <td><img src="${nesting}/images/game-console.png" height="25px"></td>
               <td>splatoon 3</td>
             </tr>
             <tr>
@@ -87,6 +87,7 @@ function headerHTML() {
           <div class="sidebar-title">to-do</div>
           <ul>
           <li>make my layout work with my blog posts</li>
+          <li>add comment widget to my blog posts</li>
           <li>find dividers + graphics i like</li>
           <li>reformat "currently..." section</li>
           <li>figure out how to get replies to work on guestbook</li>
