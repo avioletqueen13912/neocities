@@ -56,7 +56,7 @@ function headerHTML() {
             <aside class="right-sidebar">
 	  <div class="sidebar-section">
           <div class="sidebar-title">latest update</div>
-          <p>09/23/2024 - i think it's funny to say i don't remember html in my bio, but i clearly remember it now... it's so hard to choose between the truth and a bit.</p>
+          <p>09/25/2024 - hard to overstate how much fun i'm having with this website. coding rocks, actually.</p>
         </div>
         
             <div class="sidebar-section">
@@ -86,8 +86,10 @@ function headerHTML() {
         <div class="sidebar-section">
           <div class="sidebar-title">to-do</div>
           <ul>
-          <li>add comment widget to my blog posts</li>
+          <li>finish bio page</li>
+          <li>tweak formatting on "latest blog posts" page</li>
           <li>find dividers + graphics i like</li>
+          <li>add comment widget to my blog posts</li>
           <li>figure out how to get replies to work on guestbook</li>
           </ul>
         </div>
