@@ -146,7 +146,8 @@ c_form.appendChild(c_pageInput);
 
 // Add the "Replying to..." text to document
 let c_replyingText = document.createElement('span');
-c_replyingText.style.display = 'none'; c_replyingText.id = 'c_replyingText';
+c_replyingText.style.display = 'none'; 
+c_replyingText.id = 'c_replyingText';
 c_form.appendChild(c_replyingText);
 c_replyingText = document.getElementById('c_replyingText');
 
@@ -280,12 +281,12 @@ function displayComments(comments) {
         let comment = createComment(comments[i]);
         
         // // Reply button
-        // let button = document.createElement('button');
-        // button.innerHTML = s_replyButtonText;
-        // button.value = comment.id;
-        // button.setAttribute('onclick', `openReply(this.value)`);
-        // button.className = 'c-replyButton';
-        // comment.appendChild(button);
+        let button = document.createElement('button');
+        button.innerHTML = s_replyButtonText;
+        button.value = comment.id;
+        button.setAttribute('onclick', `openReply(this.value)`);
+        button.className = 'c-replyButton';
+        comment.appendChild(button);
 
         // Choose whether to display or not based on page number
         comment.style.display = 'none';
@@ -480,6 +481,8 @@ const link = document.createElement('a');
 link.href = '#c_inputDiv';
 function openReply(id) {
     if (c_replyingText.style.display == 'none') {
+        console.log(s_replyingText);
+        console.log(id);
         c_replyingText.innerHTML = s_replyingText + ` ${id.split('|--|')[0]}...`;
         c_replyInput.value = id;
         c_replyingText.style.display = 'block';
