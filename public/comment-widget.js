@@ -496,7 +496,7 @@ c_form.replaceChild(c_replyingTextReplace, c_replyingText);
         c_replyingText.style.display = 'none';
     }
     console.log(link);
-    link.click(); // Jump to the space to type
+    //link.click(); // Jump to the space to type
 }
 
 // Handle expanding replies (should only be accessible with collapsed replies enabled)
