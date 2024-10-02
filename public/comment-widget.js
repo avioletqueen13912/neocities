@@ -488,7 +488,7 @@ c_replyingTextReplace.id = 'c_replyingText';
 console.log(s_replyingText + ` ${id.split('|--|')[0]}...`);
         c_replyingTextReplace.textContent = s_replyingText + ` ${id.split('|--|')[0]}...`;
         c_replyInput.value = id;
-c_form.replaceChild(c_replyingText, c_replyingTextReplace);
+c_form.replaceChild(c_replyingTextReplace, c_replyingText);
         c_replyingText = document.getElementById('c_replyingText');
     } else {
         c_replyingText.textContent = '';
