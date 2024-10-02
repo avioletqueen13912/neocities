@@ -146,14 +146,15 @@ c_form.appendChild(c_pageInput);
 
 // Add the "Replying to..." text to document
 let c_replyingText = document.createElement('span');
-c_replyingText.style.display = 'none'; 
+c_replyingText.style.display = 'block'; 
 c_replyingText.id = 'c_replyingText';
 c_form.appendChild(c_replyingText);
 c_replyingText = document.getElementById('c_replyingText');
 
 // Add the invisible reply input to document
 let c_replyInput = document.createElement('input');
-c_replyInput.type = 'text'; c_replyInput.style.display = 'none';
+c_replyInput.type = 'text'; 
+c_replyInput.style.display = 'none';
 c_replyInput.id = 'entry.' + s_replyId; c_replyInput.name = c_replyInput.id;
 c_form.appendChild(c_replyInput);
 c_replyInput = document.getElementById('entry.' + s_replyId);
