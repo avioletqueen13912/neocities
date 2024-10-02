@@ -146,7 +146,7 @@ c_form.appendChild(c_pageInput);
 
 // Add the "Replying to..." text to document
 let c_replyingText = document.createElement('span');
-c_replyingText.style.display = 'block'; 
+c_replyingText.style.display = 'none'; 
 c_replyingText.id = 'c_replyingText';
 c_form.appendChild(c_replyingText);
 c_replyingText = document.getElementById('c_replyingText');
@@ -482,16 +482,16 @@ const link = document.createElement('a');
 link.href = '#c_inputDiv';
 function openReply(id) {
     if (c_replyingText.style.display == 'none') {
-        console.log(s_replyingText);
-        console.log(id);
-        c_replyingText.innerHTML = s_replyingText + ` ${id.split('|--|')[0]}...`;
+        console.log(s_replyingText + ` ${id.split('|--|')[0]}...`);
+        c_replyingText.textContent = s_replyingText + ` ${id.split('|--|')[0]}...`;
         c_replyInput.value = id;
         c_replyingText.style.display = 'block';
     } else {
-        c_replyingText.innerHTML = '';
+        c_replyingText.textContent = '';
         c_replyInput.value = '';
         c_replyingText.style.display = 'none';
     }
+    console.log(link);
     link.click(); // Jump to the space to type
 }
 
