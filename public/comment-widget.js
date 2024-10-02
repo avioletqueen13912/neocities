@@ -495,8 +495,10 @@ c_form.replaceChild(c_replyingTextReplace, c_replyingText);
         c_replyInput.value = '';
         c_replyingText.style.display = 'none';
     }
-    console.log(link);
+    //console.log(link);
     //link.click(); // Jump to the space to type
+    document.getElementById("entry."+s_nameId).focus();
+    document.getElementById("entry."+s_nameId).select();
 }
 
 // Handle expanding replies (should only be accessible with collapsed replies enabled)
