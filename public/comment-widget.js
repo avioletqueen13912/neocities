@@ -136,10 +136,11 @@ if (s_commentsOpen) {c_submitButton = document.getElementById('c_submitButton')}
 else {c_submitButton = document.createElement('button')}
 
 // Add invisible page input to document
-let v_pagePath = window.location.pathname;
-if (s_includeUrlParameters) {v_pagePath += window.location.search}
+let v_pagePath = window.parent.location.pathname;
+if (s_includeUrlParameters) {v_pagePath += window.parent.location.search}
 if (s_fixRarebitIndexPage && v_pagePath == '/') {v_pagePath = '/?pg=1'}
 const c_pageInput = document.createElement('input');
+console.log(v_pagePath);
 c_pageInput.value = v_pagePath; c_pageInput.type = 'text'; c_pageInput.style.display = 'none';
 c_pageInput.id = 'entry.' + s_pageId; c_pageInput.name = c_pageInput.id; 
 c_form.appendChild(c_pageInput);
