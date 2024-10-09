@@ -87,10 +87,9 @@ function headerHTML() {
           <div class="sidebar-title">to-do</div>
           <ul>
           <li>finish bio page</li>
+          <li>start building shrines for things i love</li>
           <li>tweak formatting on "latest blog posts" page</li>
           <li>find dividers + graphics i like</li>
-          <li>add comment widget to my blog posts</li>
-          <li>figure out how to get replies to work on guestbook</li>
           </ul>
         </div>
       </aside>
