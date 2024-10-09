@@ -483,12 +483,12 @@ link.href = '#c_inputDiv';
 function openReply(id) {
     if (c_replyingText.style.display == 'none') {
         let c_replyingTextReplace = document.createElement('span');
-c_replyingTextReplace.style.display = 'block'; 
-c_replyingTextReplace.id = 'c_replyingText';
-console.log(s_replyingText + ` ${id.split('|--|')[0]}...`);
+        c_replyingTextReplace.style.display = 'block'; 
+        c_replyingTextReplace.id = 'c_replyingText';
+        console.log(s_replyingText + ` ${id.split('|--|')[0]}...`);
         c_replyingTextReplace.textContent = s_replyingText + ` ${id.split('|--|')[0]}...`;
         c_replyInput.value = id;
-c_form.replaceChild(c_replyingTextReplace, c_replyingText);
+        c_form.replaceChild(c_replyingTextReplace, c_replyingText);
         c_replyingText = document.getElementById('c_replyingText');
     } else {
         c_replyingText.textContent = '';

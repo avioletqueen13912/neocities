@@ -33,8 +33,10 @@ let authorLink = ""; // Enter your website, social media, etc. Some way for peop
 let postsArray = [
 //[ "posts/2020-11-10-Special-Characters-Example.html", encodeURI( 'Spéci@l "Character\'s" Examp|e' ) ],
 //[ "posts/2020-11-10-My-Third-Post-Example.html" ],
-//[ "posts/2020-11-10-My-Second-Post-Example.html" ],
-[ "posts/2024-09-24-making-a-blog.html", "wow, this is more tedious than i thought it would be. yet also incredibly fun." ],
+[ "posts/2024-10-09-some-updates.html", 
+  "life has been a little crazy tbh. buuut i'm trying to focus on the present and take it one day at a time." ],
+[ "posts/2024-09-24-making-a-blog.html", 
+  "wow, this is more tedious than i thought it would be. yet also incredibly fun." ],
  ];
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXX
@@ -174,11 +176,11 @@ function formatSummaryLink(i) {
   }
 }
 
-let postListHTML = '<br><p><div class="returnlink"><a href="' + relativePath + '/blog.html">return to latest posts</a></div></p><section><p>';
+let postListHTML = '<br><p><div class="returnlink"><a href="' + relativePath + '/blog.html">return to latest posts</a></div></p><section><div><p>';
 for ( let i = 0; i < postsArray.length; i++ ) {
   postListHTML += formatPostLink(i);
 }
-postListHTML += "</p></section>";
+postListHTML += "</div></p></section>";
 
 //Generate the Recent Post List HTML, which can be shown on the home page (or wherever you want!)
 let recentPostsCutoff = 5; //Hey YOU! Change this number to set how many recent posts to show before cutting it off with a "more posts" link.

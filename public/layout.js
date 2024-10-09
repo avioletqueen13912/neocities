@@ -56,7 +56,7 @@ function headerHTML() {
             <aside class="right-sidebar">
 	  <div class="sidebar-section">
           <div class="sidebar-title">latest update</div>
-          <p>09/25/2024 - hard to overstate how much fun i'm having with this website. coding rocks, actually.</p>
+          <p>10/09/2024 - new blog post!!! go read it posthaste</p>
         </div>
         
             <div class="sidebar-section">

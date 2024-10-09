@@ -285,6 +285,7 @@
   .postsummary {
     border: var(--dotted-border);
     border-radius: var(--top-round-borders);
+    padding: 0px 0px 0px 10px;
   }
 
   .postsummarytitle {
