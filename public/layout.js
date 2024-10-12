@@ -54,6 +54,7 @@ function headerHTML() {
       </aside>
 
             <aside class="right-sidebar">
+            <p style="text-align:center;margin-top:-5px;"><a href="https://hillhouse.neocities.org/journal/notes/palestine"><img src="${nesting}/images/palestinegif.gif" height="25px"></a></p>
 	  <div class="sidebar-section">
           <div class="sidebar-title">latest update</div>
           <p>10/09/2024 - new blog post!!! go read it posthaste</p>
