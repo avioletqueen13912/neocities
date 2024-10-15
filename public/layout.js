@@ -38,6 +38,14 @@ function headerHTML() {
             <li>⌂<a href="https://midsummerjay.neocities.org/index.html">home</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/bio.html">about</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/blog.html">blog</a></li>
+              <li>
+              <details>
+                <summary><a href="https://midsummerjay.neocities.org/shrines.html">shrines</a></summary>
+              <ul>
+              <li>➜<a href="https://midsummerjay.neocities.org/shrines/loona.html">loona</a></li>
+              </ul>
+              </details>
+              </li>
               <li>➜<a href="https://midsummerjay.neocities.org/guestbook.html">guestbook</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/blinkies.html">blinkies</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/credits.html">credits</a></li>
