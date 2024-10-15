@@ -78,7 +78,7 @@ function headerHTML() {
             </tr>
             <tr>
               <td><img src="${nesting}/images/headphones.png" height="25px"></td>
-              <td>cosmic - red velvet<br />ttyl - loossemble<br />cheers - svt</td>
+              <td>dust - svt</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/rating.png" height="25px"></td>

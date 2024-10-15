@@ -24,6 +24,7 @@
     --dotted-border: 2px dotted #cb8589;
     --round-borders: 8px;
     --top-round-borders: 8px 8px 0px 0px;
+    --bottom-round-borders: 0px 0px 8px 8px;
     --sidebar-width: 250px;
   }
   
@@ -538,6 +539,32 @@
     margin-left: auto;
     margin-right: auto;
     padding: 5px;
+  }
+
+  .shrinedirec {
+    padding-top:8px;
+  }
+  .shrinedirec figure {
+    width: 33%;
+    margin:0px;
+    padding:0px;
+  }
+
+  .shrinedirec img {
+    max-width:100%;
+    border-radius: var(--top-round-borders);
+  }
+
+  .shrinedirec figcaption {
+    font-family: var(--heading-font);
+    font-size: var(--font-size);
+    text-align: center;
+    font-weight: bold;
+    color: var(--link-color);
+    border: var(--dotted-border);
+    border-radius: var(--bottom-round-borders);
+    margin-top:-7px;
+    padding:5px;
   }
   
   /* -------------------------------------------------------- */
