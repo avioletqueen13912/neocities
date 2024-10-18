@@ -65,7 +65,7 @@ function headerHTML() {
             <p style="text-align:center;margin-top:-5px;"><a href="https://hillhouse.neocities.org/journal/notes/palestine"><img src="${nesting}/images/palestinegif.gif" height="25px"></a></p>
 	  <div class="sidebar-section">
           <div class="sidebar-title">latest update</div>
-          <p>10/15/2024 - my first shrine is posted :') i'm in this orbit shit for LIFE</p>
+          <p>10/18/2024 - my about page is finally completed!! or at least sensibly filled out, i guess.</p>
         </div>
         
             <div class="sidebar-section">
@@ -95,9 +95,8 @@ function headerHTML() {
         <div class="sidebar-section">
           <div class="sidebar-title">to-do</div>
           <ul>
-          <li>finish bio page</li>
-          <li>add blog archive</li>
           <li>start building shrines for things i love</li>
+          <li>collect more blinkies + stamps</li>
           <li>tweak formatting on "latest blog posts" page</li>
           <li>find dividers + graphics i like</li>
           </ul>
