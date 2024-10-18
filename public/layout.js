@@ -36,7 +36,15 @@ function headerHTML() {
           <div class="sidebar-title">menu</div>
           <ul>
             <li>⌂<a href="https://midsummerjay.neocities.org/index.html">home</a></li>
-              <li>➜<a href="https://midsummerjay.neocities.org/bio.html">about</a></li>
+              <li>
+              <details>
+                <summary>about</summary>
+              <ul>
+              <li>➜<a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
+              <li>➜<a href="https://midsummerjay.neocities.org/memes.html">memes</a></li>
+              </ul>
+              </details>
+              </li>
               <li>➜<a href="https://midsummerjay.neocities.org/blog.html">blog</a></li>
               <li>
               <details>
