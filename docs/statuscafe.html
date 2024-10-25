@@ -9,15 +9,18 @@
   </div>
   <script>
 
-    let script = document.createElement('script');
-    script.src = 'https://status.cafe/current-status.js?name=midsummerjay';
-    script.async = false;
-    script.defer = false;
-    document.head.appendChild(script);
-  
-    script.onload = function() {
-        resize_parent_frame();
-    };
+    
+document.writeln('<div id="statuscafe"><div id="statuscafe-username"></div><div id="statuscafe-content"></div></div>');
+fetch("https://status.cafe/users/midsummerjay/status.json")
+  .then( r => r.json() )
+  .then( r => {
+    if (!r.content.length) {
+      document.getElementById("statuscafe-content").innerHTML = "No status yet."
+      return
+    }
+    document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/midsummerjay" target="_blank">' + r.author + '</a> ' + r.face + ' ' + r.timeAgo
+    document.getElementById("statuscafe-content").innerHTML = r.content
+  }).then(resize_parent_frame());
   
     function resize_parent_frame() {
       let data = { frame_id: "update" };
