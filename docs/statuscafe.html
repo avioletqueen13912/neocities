@@ -9,6 +9,7 @@
                   data.height = document.body.offsetHeight;
                   console.log("status cafe: " + data.height);
                   if (window.self !== window.top) {
+                    console.log("status cafe within if");
                     parent.postMessage(data, 'https://midsummerjay.neocities.org');
                   }
                 }
