@@ -550,14 +550,18 @@
     padding-top:8px;
   }
   .shrinedirec figure {
-    width: 33%;
-    margin:0px;
+    width: 32%;
+    margin:10px 5px 0px 0px;
     padding:0px;
+    display:inline-block;
   }
 
   .shrinedirec img {
-    max-width:100%;
+    width:100%;
+    object-fit: cover;
     border-radius: var(--top-round-borders);
+    height:200px;
+    overflow:auto;
   }
 
   .shrinedirec figcaption {
