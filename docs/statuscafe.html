@@ -1,14 +1,18 @@
 <link href='./statuscafe.css' rel='stylesheet' />
+<body>
 <div id="statuscafe">
   <div id="statuscafe-content"></div>
   <div id="statuscafe-username"></div>
-</div><script src="https://status.cafe/current-status.js?name=midsummerjay" defer></script>
+</div>
+</body>
+<script src="https://status.cafe/current-status.js?name=midsummerjay" defer></script>
               <script>
                 function resize_parent_frame() {
                   let data = {"frame_id":"update"};
                   let div = document.getElementById("statuscafe");
                   data.height = document.body.offsetHeight;
                   console.log("data.height: " + data.height);
+                  console.log("document body height: " + document.body.height);
                   console.log("div height: " + div.height);
                   console.log("div offset height: " + div.offsetHeight);
                   console.log("document.body.clientHeight: " +document.body.clientHeight);
