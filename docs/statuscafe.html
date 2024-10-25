@@ -10,7 +10,7 @@
                   console.log("status cafe: " + data.height);
                   if (window.self !== window.top) {
                     console.log("status cafe within if");
-                    window.parent.postMessage(data, 'https://midsummerjay.neocities.org');
+                    window.parent.postMessage(data, 'midsummerjay.neocities.org');
                   }
                 }
                 window.addEventListener('DOMContentLoaded', resize_parent_frame);
