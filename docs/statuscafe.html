@@ -20,7 +20,7 @@ fetch("https://status.cafe/users/midsummerjay/status.json")
     }
     document.getElementById("statuscafe-username").innerHTML = '<a href="https://status.cafe/users/midsummerjay" target="_blank">' + r.author + '</a> ' + r.face + ' ' + r.timeAgo
     document.getElementById("statuscafe-content").innerHTML = r.content
-  }).then(resize_parent_frame());
+  }).then(r => resize_parent_frame());
   
     function resize_parent_frame() {
       let data = { frame_id: "update" };
