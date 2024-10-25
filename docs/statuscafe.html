@@ -5,16 +5,14 @@
     <div id="statuscafe-username"></div>
   </div>
 </body>
-<script
-  src="https://status.cafe/current-status.js?name=midsummerjay"
-  defer
-></script>
+<script src="https://status.cafe/current-status.js?name=midsummerjay"></script>
 <script>
   function resize_parent_frame() {
     let data = { frame_id: "update" };
     data.height = window.getComputedStyle(document.documentElement).blockSize;
     console.log(window.getComputedStyle(document.documentElement));
     console.log(window.getComputedStyle(document.documentElement).blockSize);
+    console.log(window.getComputedStyle(document.documentElement).height);
     if (window.self !== window.top) {
       console.log("status cafe within if");
       // window.parent.postMessage(data, "https://midsummerjay.neocities.org");
