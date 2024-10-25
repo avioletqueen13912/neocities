@@ -103,7 +103,6 @@ function headerHTML() {
         <div class="sidebar-section">
           <div class="sidebar-title">to-do</div>
           <ul>
-          <li>start using status.cafe</li>
           <li>add my own button!!</li>
           <li>collect more blinkies + stamps</li>
           <li>tweak formatting on "latest blog posts" page</li>
