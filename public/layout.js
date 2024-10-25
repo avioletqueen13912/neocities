@@ -73,7 +73,7 @@ function headerHTML() {
             <p style="text-align:center;margin-top:-5px;"><a href="https://hillhouse.neocities.org/journal/notes/palestine"><img src="${nesting}/images/palestinegif.gif" height="25px"></a></p>
 	  <div class="sidebar-section">
           <div class="sidebar-title">latest update</div>
-          <iframe srcdoc="<link href='./statuscafe.css' rel='stylesheet' /><div id='statuscafe'><div id='statuscafe-content'></div><div id='statuscafe-username'></div></div><script src='https://status.cafe/current-status.js?name=midsummerjay' defer></script>" width="100%" frameborder="0" marginheight="0" marginwidth="0" height="100px"></iframe>
+          <iframe srcdoc="<link href='./statuscafe.css' rel='stylesheet' /><div id='statuscafe'><div id='statuscafe-content'></div><div id='statuscafe-username'></div></div><script src='https://status.cafe/current-status.js?name=midsummerjay' defer></script>" width="100%" frameborder="0" marginheight="0" marginwidth="0" height="125px"></iframe>
         </div>
         
             <div class="sidebar-section">
