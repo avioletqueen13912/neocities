@@ -33,7 +33,7 @@
     /* background-color: azure; */
   }
   #statuscafe-username {
-    /* margin-top: var(--margin); */
+    margin-top: var(--margin);
     /* display: none; */
     font-family: var(--heading-font);
     font-weight: bold;
