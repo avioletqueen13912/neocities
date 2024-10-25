@@ -502,6 +502,19 @@
   .two-columns > *:last-child {
     padding-left: 0.75em;
   }
+
+  #statuscafe {
+    padding: .5em;
+    background-color: azure;
+  }
+  #statuscafe-username {
+    margin-bottom: .5em;
+    display: none;
+  }
+  #statuscafe-content {
+    margin: 0 1em 0.5em 1em;
+    font-family: var(--font);
+  }
   
   /* -------------------------------------------------------- */
   /*  CONTENT IMAGES */
