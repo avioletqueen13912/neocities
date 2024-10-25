@@ -7,31 +7,32 @@
     <div id="statuscafe-content"></div>
     <div id="statuscafe-username"></div>
   </div>
+  <script>
+
+    let script = document.createElement('script');
+    script.src = 'https://status.cafe/current-status.js?name=midsummerjay';
+    script.async = false;
+    script.defer = false;
+    document.head.appendChild(script);
+  
+    script.onload = function() {
+        resize_parent_frame();
+    };
+  
+    function resize_parent_frame() {
+      let data = { frame_id: "update" };
+      data.height = window.getComputedStyle(document.documentElement).blockSize;
+      console.log(window.getComputedStyle(document.documentElement));
+      console.log(window.getComputedStyle(document.documentElement).blockSize);
+      console.log(window.getComputedStyle(document.documentElement).height);
+      if (window.self !== window.top) {
+        console.log("status cafe within if");
+        // window.parent.postMessage(data, "https://midsummerjay.neocities.org");
+        window.parent.postMessage(data, "*");
+      }
+    };
+    // window.addEventListener("load", resize_parent_frame);
+    // window.addEventListener("resize", resize_parent_frame);
+  </script>
 </body>
-<script>
 
-  let script = document.createElement('script');
-  script.src = 'https://status.cafe/current-status.js?name=midsummerjay';
-  script.async = false;
-  script.defer = false;
-  document.head.appendChild(script);
-
-  script.onload = function() {
-      resize_parent_frame();
-  };
-
-  function resize_parent_frame() {
-    let data = { frame_id: "update" };
-    data.height = window.getComputedStyle(document.documentElement).blockSize;
-    console.log(window.getComputedStyle(document.documentElement));
-    console.log(window.getComputedStyle(document.documentElement).blockSize);
-    console.log(window.getComputedStyle(document.documentElement).height);
-    if (window.self !== window.top) {
-      console.log("status cafe within if");
-      // window.parent.postMessage(data, "https://midsummerjay.neocities.org");
-      window.parent.postMessage(data, "*");
-    }
-  };
-  // window.addEventListener("load", resize_parent_frame);
-  // window.addEventListener("resize", resize_parent_frame);
-</script>
