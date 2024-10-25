@@ -82,7 +82,7 @@ function headerHTML() {
           <table class="table-class">
             <tr>
               <td><img src="${nesting}/images/game-console.png" height="25px"></td>
-              <td>splatoon 3</td>
+              <td>balatro</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/headphones.png" height="25px"></td>
