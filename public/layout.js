@@ -4,6 +4,23 @@ document.addEventListener("DOMContentLoaded", function () {
   loadLayoutByPetraPixel();
 });
 
+window.addEventListener('message', event => {
+  console.log("event: " + event.origin);
+  if (event.origin === 'https://avioletqueen13912.github.io') {
+    if (event.data.frame_id === 'update') {
+      console.log("parent: " + event.data.height);
+      // console.log(Number.isInteger(event.data.height));
+      if (event.data.height) {
+        resize_example_frame(event.data.height);
+      }
+    }
+  }
+}, false);
+
+function resize_example_frame(nh) {
+  document.getElementById('update').height = nh;
+}
+
 function loadLayoutByPetraPixel() {
   const mainEl = document.querySelector("main");
   if (!mainEl) return;
@@ -22,12 +39,6 @@ function headerHTML() {
 
         <div class="header-content">
 			<div class="header-title">a midsummer jay's zone</div>
-	        <nav style="display:none;">
-	          <ul>
-	            <li><a href="https://midsummerjay.neocities.org">⌂</a></li>
-              <li><a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
-	          </ul>
-	        </>
 		</div>
       </header>
 	  
@@ -66,7 +77,9 @@ function headerHTML() {
         </div>
         <div class="sidebar-section">
           <div class="sidebar-title">chatbox</div>
-          <iframe src="https://www3.cbox.ws/box/?boxid=3540886&boxtag=85Jf6C" width="100%" height="225" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
+          <iframe 
+            src="https://www3.cbox.ws/box/?boxid=3540886&boxtag=85Jf6C" 
+            width="100%" height="225" allowtransparency="yes" allow="autoplay" frameborder="0" marginheight="0" marginwidth="0" scrolling="auto"></iframe>
         </div>
       </aside>
 
@@ -75,16 +88,9 @@ function headerHTML() {
 	  <div class="sidebar-section">
           <div class="sidebar-title">latest update</div>
           <iframe 
-            srcdoc="<link href='${nesting}/statuscafe.css' rel='stylesheet' /><div id='statuscafe'><div id='statuscafe-content'></div><div id='statuscafe-username'></div></div><script src='https://status.cafe/current-status.js?name=midsummerjay' defer></script>" 
-            width="100%" frameborder="0" marginheight="0" marginwidth="0" id="update">
+            src="https://avioletqueen13912.github.io/neocities/statuscafe.html"
+            width="100%" frameborder="0" marginheight="0" marginwidth="0" id="update" scrolling="no">
           </iframe>
-          <script>
-            let div = document.getElementById("update");
-            div.onload = function () {
-            div.style.height =
-                div.contentWindow.document.body.scrollHeight + 'px';
-            }
-          </script>
         </div>
         
             <div class="sidebar-section">
@@ -147,7 +153,7 @@ function giveActiveClassToLinks() {
   [...els].forEach((el) => {
     const href = el.getAttribute("href").replace(".html", "").replace("#", "");
     const pathname = window.location.pathname.replace("/public/", "");
-
+    console.log("href: " + href);
     if (href == "/" || href == "/index.html") {
       if (window.location.href == "http://localhost:8080/" || pathname == "/") {
         el.classList.add("active");
@@ -155,7 +161,7 @@ function giveActiveClassToLinks() {
     } else {
       if (window.location.href.includes(href)) {
         el.classList.add("active");
-
+        console.log(el.closest("summary"));
         if (el.closest("summary")) {
           el.closest("details").addAttribute("open");
           el.closest("summary").classList.add("active");
