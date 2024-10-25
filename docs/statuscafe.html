@@ -6,3 +6,15 @@
               </div>
               <script src='https://status.cafe/current-status.js?name=midsummerjay'>
               </script>
+              <script>
+                function resize_parent_frame() {
+                  let data = {"frame_id":"update"};
+                  data.height = document.body.offsetHeight;
+                  console.log(data.height);
+                  if (window.self !== window.top) {
+                    parent.postMessage(data, 'https://midsummerjay.neocities.org');
+                  }
+                }
+                window.addEventListener('DOMContentLoaded', resize_parent_frame);
+                window.addEventListener('resize', resize_parent_frame);
+                </script>
