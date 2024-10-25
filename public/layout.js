@@ -104,6 +104,7 @@ function headerHTML() {
           <div class="sidebar-title">to-do</div>
           <ul>
           <li>add my own button!!</li>
+          <li>add my tamanotchi</li>
           <li>collect more blinkies + stamps</li>
           <li>tweak formatting on "latest blog posts" page</li>
           <li>find dividers + graphics i like</li>
