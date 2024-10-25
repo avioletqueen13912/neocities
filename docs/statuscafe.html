@@ -1,22 +1,25 @@
-<link href='./statuscafe.css' rel='stylesheet' />
+<link href="./statuscafe.css" rel="stylesheet" />
 <body>
-<div id="statuscafe">
-  <div id="statuscafe-content"></div>
-  <div id="statuscafe-username"></div>
-</div>
+  <div id="statuscafe">
+    <div id="statuscafe-content"></div>
+    <div id="statuscafe-username"></div>
+  </div>
 </body>
-<script src="https://status.cafe/current-status.js?name=midsummerjay" defer></script>
-              <script>
-                function resize_parent_frame() {
-                  let data = {"frame_id":"update"};
-                  data.height = document.documentElement.offsetHeight;
-                  console.log(window.getComputedStyle(document.documentElement));
-                  if (window.self !== window.top) {
-                    console.log("status cafe within if");
-                    // window.parent.postMessage(data, "https://midsummerjay.neocities.org");
-                    window.parent.postMessage(data, "*");
-                  }
-                }
-                window.addEventListener('DOMContentLoaded', resize_parent_frame);
-                window.addEventListener('resize', resize_parent_frame);
-                </script>
+<script
+  src="https://status.cafe/current-status.js?name=midsummerjay"
+  defer
+></script>
+<script>
+  function resize_parent_frame() {
+    let data = { frame_id: "update" };
+    data.height = window.getComputedStyle(document.documentElement).blockSize;
+    console.log(window.getComputedStyle(document.documentElement).blockSize);
+    if (window.self !== window.top) {
+      console.log("status cafe within if");
+      // window.parent.postMessage(data, "https://midsummerjay.neocities.org");
+      window.parent.postMessage(data, "*");
+    }
+  }
+  window.addEventListener("DOMContentLoaded", resize_parent_frame);
+  window.addEventListener("resize", resize_parent_frame);
+</script>
