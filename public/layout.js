@@ -164,7 +164,7 @@ function giveActiveClassToLinks() {
         el.classList.add("active");
         console.log(el.closest("summary"));
         if (el.closest("summary")) {
-          el.closest("details").addAttribute("open");
+          el.closest("details").open = true;
           el.closest("summary").classList.add("active");
         }
       }
