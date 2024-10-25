@@ -154,6 +154,7 @@ function giveActiveClassToLinks() {
     const href = el.getAttribute("href").replace(".html", "").replace("#", "");
     const pathname = window.location.pathname.replace("/public/", "");
     console.log("href: " + href);
+    console.log("pathname: " + pathname);
     if (href == "/" || href == "/index.html") {
       if (window.location.href == "http://localhost:8080/" || pathname == "/") {
         el.classList.add("active");
