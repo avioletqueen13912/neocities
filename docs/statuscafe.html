@@ -1,6 +1,5 @@
 <link href="./statuscafe.css" rel="stylesheet" />
 <head>
-  <!-- <script id="sc-script" src="https://status.cafe/current-status.js?name=midsummerjay"></script> -->
 </head>
 <body>
   <div id="statuscafe">
@@ -25,17 +24,11 @@ fetch("https://status.cafe/users/midsummerjay/status.json")
     function resize_parent_frame() {
       let data = { frame_id: "update" };
       data.height = window.getComputedStyle(document.documentElement).blockSize;
-      console.log(window.getComputedStyle(document.documentElement));
-      console.log(window.getComputedStyle(document.documentElement).blockSize);
-      console.log(window.getComputedStyle(document.documentElement).height);
       if (window.self !== window.top) {
-        console.log("status cafe within if");
-        // window.parent.postMessage(data, "https://midsummerjay.neocities.org");
+        // console.log("status cafe within if");
         window.parent.postMessage(data, "*");
       }
     };
-    // window.addEventListener("load", resize_parent_frame);
-    // window.addEventListener("resize", resize_parent_frame);
   </script>
 </body>
 

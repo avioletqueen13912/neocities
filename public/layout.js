@@ -5,11 +5,8 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 window.addEventListener('message', event => {
-  console.log("event: " + event.origin);
   if (event.origin === 'https://avioletqueen13912.github.io') {
     if (event.data.frame_id === 'update') {
-      console.log("parent: " + event.data.height);
-      // console.log(Number.isInteger(event.data.height));
       if (event.data.height) {
         resize_example_frame(event.data.height);
       }
@@ -49,7 +46,7 @@ function headerHTML() {
             <li>⌂<a href="https://midsummerjay.neocities.org/index.html">home</a></li>
               <li>
               <details>
-                <summary>about</summary>
+                <summary class="sum">about</summary>
               <ul>
               <li>➜<a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/memes.html">memes</a></li>
@@ -59,7 +56,7 @@ function headerHTML() {
               <li>➜<a href="https://midsummerjay.neocities.org/blog.html">blog</a></li>
               <li>
               <details>
-                <summary><a href="https://midsummerjay.neocities.org/shrines.html">shrines</a></summary>
+                <summary class="sum"><a href="https://midsummerjay.neocities.org/shrines.html">shrines</a></summary>
               <ul>
               <li>➜<a href="https://midsummerjay.neocities.org/shrines/loona.html">loona</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/shrines/p-o-k-accent-e-mon.html">pokémon</a></li>
@@ -162,8 +159,9 @@ function giveActiveClassToLinks() {
     } else {
       if (window.location.href.includes(href)) {
         el.classList.add("active");
-        console.log(el.closest("summary"));
-        if (el.closest("summary")) {
+        console.log(el.closest(".sum"));
+        console.log(el.closest("details summary"));
+        if (el.closest(".sum")) {
           el.closest("details").open = true;
           el.closest("summary").classList.add("active");
         }
