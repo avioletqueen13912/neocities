@@ -7,8 +7,7 @@
   </div>
 </body>
 <script>
-  var sElem = document.querySelector('#sc-script');
-  sElem.addEventListener('load', function() {
+  function resize_parent_frame() {
     let data = { frame_id: "update" };
     data.height = window.getComputedStyle(document.documentElement).blockSize;
     console.log(window.getComputedStyle(document.documentElement));
@@ -19,7 +18,7 @@
       // window.parent.postMessage(data, "https://midsummerjay.neocities.org");
       window.parent.postMessage(data, "*");
     }
-  });
-  // window.addEventListener("load", resize_parent_frame);
-  // window.addEventListener("resize", resize_parent_frame);
+  };
+  window.addEventListener("load", resize_parent_frame);
+  window.addEventListener("resize", resize_parent_frame);
 </script>
