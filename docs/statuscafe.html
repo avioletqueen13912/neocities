@@ -12,8 +12,8 @@
                   let div = document.getElementById("statuscafe");
                   data.height = document.body.offsetHeight;
                   console.log("data.height: " + data.height);
-                  console.log("document body height: " + document.body.height);
-                  console.log("div height: " + div.height);
+                  console.log("document documentElement height: " + document.documentElement.clientHeight);
+                  console.log("window height: " + window.innerHeight);
                   console.log("div offset height: " + div.offsetHeight);
                   console.log("document.body.clientHeight: " +document.body.clientHeight);
                   if (window.self !== window.top) {
