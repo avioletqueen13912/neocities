@@ -10,7 +10,7 @@
                 function resize_parent_frame() {
                   let data = {"frame_id":"update"};
                   data.height = document.body.offsetHeight;
-                  console.log(data.height);
+                  console.log("status cafe: " + data.height);
                   if (window.self !== window.top) {
                     parent.postMessage(data, 'https://midsummerjay.neocities.org');
                   }
