@@ -51,6 +51,7 @@ function headerHTML() {
                 <summary><a href="https://midsummerjay.neocities.org/shrines.html">shrines</a></summary>
               <ul>
               <li>➜<a href="https://midsummerjay.neocities.org/shrines/loona.html">loona</a></li>
+              <li>➜<a href="https://midsummerjay.neocities.org/shrines/p-o-k-accent-e-mon.html">pokémon</a></li>
               </ul>
               </details>
               </li>
