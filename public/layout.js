@@ -46,7 +46,7 @@ function headerHTML() {
             <li>⌂<a href="https://midsummerjay.neocities.org/index.html">home</a></li>
               <li>
               <details>
-                <summary class="sum">about</summary>
+                <summary>about</summary>
               <ul>
               <li>➜<a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/memes.html">memes</a></li>
@@ -56,7 +56,7 @@ function headerHTML() {
               <li>➜<a href="https://midsummerjay.neocities.org/blog.html">blog</a></li>
               <li>
               <details>
-                <summary class="sum"><a href="https://midsummerjay.neocities.org/shrines.html">shrines</a></summary>
+                <summary><a href="https://midsummerjay.neocities.org/shrines.html">shrines</a></summary>
               <ul>
               <li>➜<a href="https://midsummerjay.neocities.org/shrines/loona.html">loona</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/shrines/p-o-k-accent-e-mon.html">pokémon</a></li>
@@ -161,7 +161,7 @@ function giveActiveClassToLinks() {
       if (window.location.href.includes(href)) {
         el.classList.add("active");
         console.log(el.closest("summary"));
-        if (el.closest(".sum")) {
+        if (el.closest("summary")) {
           el.closest("details").open = true;
           el.closest("summary").classList.add("active");
         }
