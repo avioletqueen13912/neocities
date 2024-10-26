@@ -570,6 +570,23 @@
     overflow:auto;
   }
 
+  div.tamaclass {
+    float:right; 
+    text-align:center;
+    width:25%;
+  }
+
+  figure.tamaclass img {
+    max-width: 100%;
+  }
+
+  figcaption.tamaclass {
+    font-size: 12px;
+    color: var(--link-color);
+    padding:5px;
+    margin-top:-25px;
+  }
+
   .shrinedirec figcaption {
     font-family: var(--heading-font);
     font-size: var(--font-size);

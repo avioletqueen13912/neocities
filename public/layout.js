@@ -117,8 +117,7 @@ function headerHTML() {
         <div class="sidebar-section">
           <div class="sidebar-title">to-do</div>
           <ul>
-          <li>add my tamanotchi</li>
-          <li>fix menu bolding on active links</li>
+          <li>fix menu bolding on about link</li>
           <li>add my own button!!</li>
           <li>collect more blinkies + stamps</li>
           <li>tweak formatting on "latest blog posts" page</li>
