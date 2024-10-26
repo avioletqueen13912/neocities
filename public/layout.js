@@ -152,12 +152,14 @@ function giveActiveClassToLinks() {
     const pathname = window.location.pathname.replace("/public/", "");
     console.log("href: " + href);
     console.log("pathname: " + pathname);
-    if (href == "/" || href == "/index.html") {
+    if (href == "/" || href == "https://midsummerjay.neocities.org/index.html") {
       if (window.location.href == "http://localhost:8080/" || pathname == "/") {
+        console.log('bolding 1');
         el.classList.add("active");
       }
     } else {
       if (window.location.href.includes(href)) {
+        console.log('bolding 2');
         el.classList.add("active");
         if (el.closest("summary")) {
           el.closest("details").open = true;
