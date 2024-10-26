@@ -287,6 +287,11 @@
     padding-right: 0;
   }
 
+  a.disabled {
+    pointer-events: none;
+    cursor: default;
+  }
+
   /* -------------------------------------------------------- */
   /* BLOG */
 

@@ -46,7 +46,7 @@ function headerHTML() {
             <li>⌂<a href="https://midsummerjay.neocities.org/index.html">home</a></li>
               <li>
               <details>
-                <summary><a href="">about</a></summary>
+                <summary><a href="" class="disabled">about</a></summary>
               <ul>
               <li>➜<a href="https://midsummerjay.neocities.org/bio.html">bio</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/memes.html">memes</a></li>
