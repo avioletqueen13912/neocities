@@ -160,8 +160,7 @@ function giveActiveClassToLinks() {
     } else {
       if (window.location.href.includes(href)) {
         el.classList.add("active");
-        console.log(el.closest(".sum"));
-        console.log(el.closest("details summary"));
+        console.log(el.closest("summary"));
         if (el.closest(".sum")) {
           el.closest("details").open = true;
           el.closest("summary").classList.add("active");
