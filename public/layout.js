@@ -117,7 +117,7 @@ function headerHTML() {
         <div class="sidebar-section">
           <div class="sidebar-title">my button</div>
           <p style="text-align:center;font-size:9px;">
-            <img src="${nesting}/images/midsummerjay_button.png"><br/><br/>please don't hotlink!</p>
+            <img src="${nesting}/images/midsummerjay_button.gif"><br/><br/>please don't hotlink!</p>
         </div>
 
         <div class="sidebar-section">
