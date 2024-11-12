@@ -115,10 +115,15 @@ function headerHTML() {
         </div>
 
         <div class="sidebar-section">
+          <div class="sidebar-title">my button</div>
+          <p style="text-align:center;font-size:9px;">
+            <img src="${nesting}/images/midsummerjay_button.png"><br/><br/>please don't hotlink!</p>
+        </div>
+
+        <div class="sidebar-section">
           <div class="sidebar-title">to-do</div>
           <ul>
           <li>fix menu bolding on about link</li>
-          <li>add my own button!!</li>
           <li>collect more blinkies + stamps</li>
           <li>tweak formatting on "latest blog posts" page</li>
           <li>find dividers + graphics i like</li>
