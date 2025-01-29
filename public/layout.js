@@ -96,7 +96,7 @@ function headerHTML() {
           <table class="table-class">
             <tr>
               <td><img src="${nesting}/images/game-console.png" height="25px"></td>
-              <td>balatro</td>
+              <td>slay the spire & ac: pocket camp</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/headphones.png" height="25px"></td>
