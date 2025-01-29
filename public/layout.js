@@ -104,7 +104,7 @@ function headerHTML() {
             </tr>
             <tr>
               <td><img src="${nesting}/images/rating.png" height="25px"></td>
-              <td>count of monte cristo (slowly)</td>
+              <td>the crying of lot 49</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/tv.png" height="25px"></td>
