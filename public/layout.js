@@ -53,6 +53,7 @@ function headerHTML() {
               </ul>
               </details>
               </li>
+              <li>➜<a href="https://midsummerjay.neocities.org/medialog.html">media log</a></li>
               <li>➜<a href="https://midsummerjay.neocities.org/blog.html">blog</a></li>
               <li>
               <details>
@@ -173,3 +174,6 @@ function giveActiveClassToLinks() {
     }
   });
 }
+
+
+

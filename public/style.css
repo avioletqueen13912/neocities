@@ -629,6 +629,76 @@
   .imgwrapright figcaption table th:first-child {
     border-left: none;
    }
+
+  /* -------------------------------------------------------- */
+  /*  COLLAPSIBLE */
+
+  .collapsible.parent {
+    background-color: var(--button-background);
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    border-radius: var(--top-round-borders);
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+
+  .collapsible.child {
+    background-color: var(--content-background-color);
+    color: var(--text-color);
+    font-family: var(--heading-font);
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .active, .collapsible.parent:hover {
+    background-color: var(--background-color);
+  }
+
+  .collapsible.child.active {
+    border: none;
+    border-bottom: var(--dotted-border);
+  }
+
+  .collapsecontent {
+    padding: 18px;
+    display: none;
+    overflow: hidden;
+    border: var(--dotted-border);
+    border-radius: var(--bottom-round-borders);
+    background-color: var(--content-background-color);
+  }
+
+  .collapsible.active span.collapsetoken {
+    display: inline-block;
+    -ms-transform: rotate(90deg); /* IE 9 */
+    -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+  }
+
+  .childcollapsecontent figure {
+    display: inline-block;
+    width: 12%;
+  }
+
+  .childcollapsecontent figure img {
+    width: 100%;
+  }
+
+  .childcollapsecontent figure figcaption {
+    text-align: center;
+  }
   
   /* -------------------------------------------------------- */
   /* 	MOBILE RESPONSIVE */
