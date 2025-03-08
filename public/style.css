@@ -662,7 +662,7 @@
     margin-top: 5px;
   }
 
-  .active, .collapsible.parent:hover {
+  .collapsible.parent.active:hover {
     background-color: var(--background-color);
   }
 
