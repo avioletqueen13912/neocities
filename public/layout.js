@@ -97,19 +97,19 @@ function headerHTML() {
           <table class="table-class">
             <tr>
               <td><img src="${nesting}/images/game-console.png" height="25px"></td>
-              <td>slay the spire & ac: pocket camp</td>
+              <td>the sims 4</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/headphones.png" height="25px"></td>
-              <td>dust - svt</td>
+              <td>fatt - realis</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/rating.png" height="25px"></td>
-              <td>the jasmine throne</td>
+              <td>a dark and drowning tide</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/tv.png" height="25px"></td>
-              <td>northernlion vods</td>
+              <td>northernlion & lilsimsie vids</td>
             </tr>
           </table>
           </p>
