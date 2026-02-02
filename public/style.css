@@ -687,6 +687,12 @@
     transform: rotate(90deg);
   }
 
+  .childcollapsecontent {
+    padding: 18px;
+    display: none;
+    overflow: hidden;
+  }
+
   .childcollapsecontent figure {
     display: inline-block;
     width: 12%;
