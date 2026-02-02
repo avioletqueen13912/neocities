@@ -97,15 +97,15 @@ function headerHTML() {
           <table class="table-class">
             <tr>
               <td><img src="${nesting}/images/game-console.png" height="25px"></td>
-              <td>the sims 4</td>
+              <td>the oregon trail</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/headphones.png" height="25px"></td>
-              <td>realis - fatt</td>
+              <td>realis & perpetua - fatt</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/rating.png" height="25px"></td>
-              <td>a dark and drowning tide</td>
+              <td>the tigress of forli</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/tv.png" height="25px"></td>
