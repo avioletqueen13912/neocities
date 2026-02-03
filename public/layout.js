@@ -71,7 +71,7 @@ function headerHTML() {
         </nav>
         <div class="sidebar-section">
         <div class="sidebar-title">visitors</div>
-        <iframe srcdoc="<div style='text-align:center;padding-top:8px;'><script language='javascript' type='text/javascript' src='//counter1.fc2.com/counter.php?id=39945556&main=1'></script><noscript><img src='//counter1.fc2.com/counter_img.php?id=39945556&main=1' /></noscript></div>" width="100%" frameborder="0" marginheight="0" marginwidth="0" height="30px" scrolling="no"></iframe>
+        <iframe srcdoc="<div style='text-align:center;padding-top:8px;'><script language="javascript" type="text/javascript" src="//counter1.fc2.com/counter.php?id=39945556&main=1"></script><noscript><img src="//counter1.fc2.com/counter_img.php?id=39945556&main=1" /></noscript></div>" width="100%" frameborder="0" marginheight="0" marginwidth="0" height="30px" scrolling="no"></iframe>
         </div>
         <div class="sidebar-section">
           <div class="sidebar-title">chatbox</div>
@@ -105,7 +105,7 @@ function headerHTML() {
             </tr>
             <tr>
               <td><img src="${nesting}/images/rating.png" height="25px"></td>
-              <td>the tigress of forli</td>
+              <td>factory girls</td>
             </tr>
             <tr>
               <td><img src="${nesting}/images/tv.png" height="25px"></td>
